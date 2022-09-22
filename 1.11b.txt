@@ -1,0 +1,19 @@
+D2Game.dll
+Base Address 0x6fc20000
+
+0x6fc9a37a      cmp     eax, 0x1900
+0x6fc9a37f      ja      0x6fc9a3d4
+
+[How to apply Fix]
+
+Go to file offset 0x0007a37f
+
+Replace
+
+Asm: ja 0x6fc9a3d4
+Hex: 77 53
+
+With
+
+Asm: ja 0x6fc9a381
+Hex: 77 00
