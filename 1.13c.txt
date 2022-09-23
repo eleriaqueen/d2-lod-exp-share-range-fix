@@ -6,7 +6,7 @@ Base Address 0x6fc20000
 
 [How to apply Fix]
 
-Go to file offset 0x6fcfafcf
+Go to file offset 0x000dafcf
 
 Replace
 
