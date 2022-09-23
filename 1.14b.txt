@@ -1,0 +1,19 @@
+Game.exe
+Base Address 0x00400000
+
+0x0057c650      cmp     edx, 0x1900
+0x0057c656      ja      0x57c6a8
+
+[How to apply Fix]
+
+Go to file offset 0x0017c656
+
+Replace
+
+Asm: ja 0x57c6a8
+Hex: 77 50
+
+With
+
+Asm: ja 0x57c658
+Hex: 77 00
