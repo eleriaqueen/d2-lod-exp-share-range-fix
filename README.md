@@ -1,10 +1,15 @@
 # Diablo II - LOD - "Exp Share Range Fix"
-Get rid of the two-screen experience share range limit.
+Gets rid of the two-screen experience share range limit.
 
-This method changes the target address of a conditional jump to be the next instruction instead of its original target address (essentially NOP-ing it)
+## How to use the info in this repository
+
+Bare minimum you need a hexadecimal editor and need to know how to search for and how to modify hex values using this type of software.
+
+Recommended hex editor : [ImHex](https://github.com/WerWolv/ImHex)
 
 ## Details
-This repository contains enough info to be able to manually patch D2Game.dll (Or Game.exe in the case of game version 1.14 and up) with the fix.
+
+The method used in this repository is to change the target address of a conditional jump to be the next instruction instead of its original target address (essentially NOP-ing it) thus bypassing a range check
 
 ## Thanks
 Devurandom  /  lolet  /  Fearedbliss
