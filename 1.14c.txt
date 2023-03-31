@@ -1,5 +1,4 @@
-Game.exe
-Base Address 0x00400000
+Game.exe (Base Address 0x00400000)
 
 0x0057c240      cmp     edx, 0x1900
 0x0057c246      ja      0x57c298
