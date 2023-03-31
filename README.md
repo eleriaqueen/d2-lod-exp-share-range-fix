@@ -1,5 +1,5 @@
-# Diablo II - LOD - "Exp Share Range Fix"
-Gets rid of the two-screen experience share range limit.
+# Diablo II - LoD - "Exp Share Range Fix"
+Gets rid of the two-screen experience share range limit introduced in LoD patch 1.10.
 
 ## How to use the info in this repository
 
