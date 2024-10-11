@@ -9,7 +9,7 @@ Recommended hex editor : [ImHex](https://github.com/WerWolv/ImHex)
 
 ## Details
 
-The method used in this repository is to change the target address of a conditional jump to be the next instruction instead of its original target address (essentially NOP-ing it) thus bypassing a range check
+The method used is changing the target address of a jump so that destination is the next instruction thus making exp share map-wide.
 
 ## Thanks
 Devurandom  /  lolet  /  Fearedbliss
